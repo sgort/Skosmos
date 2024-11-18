@@ -67,7 +67,7 @@
 # Skosmos vocabularies
 
 :ronl a skosmos:Vocabulary, void:Dataset ;
-    dc:title "Vocabulary regels.overheid.nl"@en ;
+    dc:title "Custom namespace regels.overheid.nl"@en ;
     skosmos:shortName "RONL";
     dc:subject :cat_general ;
     void:uriSpace "http://regels.overheid.nl/ronl/";
