@@ -33,7 +33,7 @@
     # skosmos:baseHref "http://localhost/Skosmos/" ;
     # interface languages available, and the corresponding system locales
     skosmos:languages (
-        [ rdfs:label "en" ; rdf:value "en_GB.utf8" ]
+        [ rdfs:label "nl" ; rdf:value "nl.utf8" ]
     ) ;
     # how many results (maximum) to load at a time on the search results page
     skosmos:searchResultsSize 20 ;
@@ -67,7 +67,7 @@
 # Skosmos vocabularies
 
 :ronl a skosmos:Vocabulary, void:Dataset ;
-    dc:title "Custom namespace regels.overheid.nl"@en ;
+    dc:title "regels.overheid.nl"@nl ;
     skosmos:shortName "RONL";
     dc:subject :cat_general ;
     void:uriSpace "http://regels.overheid.nl/ronl/";
@@ -78,12 +78,12 @@
     skosmos:sparqlGraph <http://regels.overheid.nl/ronl/> .
 
 :nlsbb a skosmos:Vocabulary, void:Dataset ;
-    dc:title "Standard for describing concepts (NL-SBB)"@en ;
+    dc:title "Standaard voor beschrijven van begrippen (NL-SBB)"@nl ;
     skosmos:shortName "NL-SBB";
     dc:subject :cat_general ;
     void:uriSpace "http://regels.overheid.nl/nlsbb/";
     skosmos:language "en", "nl";
-    skosmos:defaultLanguage "en";
+    skosmos:defaultLanguage "nl";
     skosmos:showTopConcepts true ;
     void:sparqlEndpoint <http://fuseki-cache:80/skosmos/sparql> ;
     skosmos:sparqlGraph <http://regels.overheid.nl/nlsbb/> .
