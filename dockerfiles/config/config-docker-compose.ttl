@@ -72,7 +72,7 @@
     dc:subject :cat_general ;
     void:uriSpace "http://regels.overheid.nl/ronl/";
     skosmos:language "en", "nl";
-    skosmos:defaultLanguage "en";
+    skosmos:defaultLanguage "nl";
     skosmos:showTopConcepts true ;
     void:sparqlEndpoint <http://fuseki-cache:80/skosmos/sparql> ;
     skosmos:sparqlGraph <http://regels.overheid.nl/ronl/> .
