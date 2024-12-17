@@ -64,7 +64,7 @@
     # plugins to activate for the whole installation (including all vocabularies)
     skosmos:globalPlugins () .
 
-# Skosmos vocabularies
+# Skosmos vocabularies update test
 
 :ronl a skosmos:Vocabulary, void:Dataset ;
     dc:title "Eigen lijst voor regels.overheid.nl"@nl ;
